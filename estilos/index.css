@@ -1,0 +1,71 @@
+body{
+    background-color: whitesmoke;
+    text-align: center;
+}
+nav{
+    background-color: whitesmoke;
+    margin: none;
+}
+ul{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+li{
+    display: flex;
+    font-size: 20px;   
+    padding: 25px 35px;     
+    border-radius: 25px;
+    margin: 20px;
+}
+li:hover{
+    background-color: coral;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+}
+a:hover{
+    color: black;
+}
+.portada{
+    background-color: white;
+}
+.Titulo{
+     font-size: 45px;
+     font-style: oblique;
+     color: brown;
+}
+.Slogan{
+    font-size: 25px;
+    font-style: oblique;
+    color: red;
+}
+.Caja1{
+    display: flex;
+    justify-content: space-around;
+}
+article{    
+    display: inline-block;
+    margin: 15px;
+    background-color: darkorange;
+    border-radius: 15px;
+    padding: 35px 40px;
+}
+h1{
+    font-size: 25px;
+    font-style: oblique;
+    transition:font-size 0.5s ease-in-out;
+}
+h1:hover{
+    font-size: 35px;
+}
+footer{
+    border: solid white;
+    background-color: burlywood;
+}
+.Pie{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+}

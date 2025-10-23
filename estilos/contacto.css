@@ -1,0 +1,65 @@
+body{
+    background-color: whitesmoke;
+    text-align: center;
+}
+nav{
+    background-color: whitesmoke;
+    margin-top: none;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li{
+    list-style-type: none;
+    padding: 35px 40px;
+    border-radius: 15px;
+    font-size: 20px;
+    margin-top: none;
+}
+li:hover{
+    background-color: slategrey;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+}
+a:hover{
+    color: ghostwhite;
+}
+form{
+    display: inline-block;
+    align-items: center;
+}
+fieldset{
+    display: flex;
+    text-align: center;
+    width: 350px;
+    height: 350px;
+    border: solid red;
+    border-radius: 15px;
+    background-color: white;
+    display: inline-block;
+    align-items: center;
+}
+legend{
+    color: blueviolet;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+label{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input{
+    padding: 5px 20px;
+    border-radius: 15px;
+}
+button{
+    border-radius: 10px;
+}
+footer{
+    border: solid white;
+    background-color: burlywood;
+}
